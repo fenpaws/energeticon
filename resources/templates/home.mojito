@@ -1,0 +1,14 @@
+{{#extends "Layouts/Default"}}
+<div class="text-center" style="height: 100vh; display: flex; flex-flow: column; justify-content: center;">
+    <img class="d-block mx-auto mb-4" src="https://github.com/go-mojito/mojito/raw/main/.github/assets/gopher.png" alt="" width="300">
+    <h1 class="display-5 fw-bold">Go-Mojito Quickstart</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Congratulations, you have succesfully setup a go-mojito project that makes use of routing, extending templates, dependency injection, caching, dynamic handlers, middleware and the asset handler. Want to do more?</p>
+
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://go-mojito.infinytum.co/docs">Check the Docs</a>
+      </div>
+      <p class="mt-3">Last visited at {{formatdate lastVisit "15:04:05 on the 2 Jan 2006"}}</p>
+    </div>
+</div>
+{{/extends}}
